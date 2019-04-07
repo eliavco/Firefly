@@ -1,0 +1,25 @@
+[debug] [2019-04-07T17:59:49.973Z] ----------------------------------------------------------------------
+[debug] [2019-04-07T17:59:49.976Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\eliav_1iz7\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2019-04-07T17:59:49.976Z] CLI Version:   6.5.3
+[debug] [2019-04-07T17:59:49.976Z] Platform:      win32
+[debug] [2019-04-07T17:59:49.976Z] Node Version:  v11.5.0
+[debug] [2019-04-07T17:59:49.978Z] Time:          Sun Apr 07 2019 20:59:49 GMT+0300 (Israel Daylight Time)
+[debug] [2019-04-07T17:59:49.978Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-04-07T17:59:49.988Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-04-07T17:59:49.988Z] > authorizing via signed-in user
+[debug] [2019-04-07T17:59:49.988Z] [iam] checking project firefly-184ad for permissions ["firebase.projects.get"]
+[debug] [2019-04-07T17:59:49.991Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/firefly-184ad:testIamPermissions  
+
+[debug] [2019-04-07T17:59:51.002Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-07T17:59:51.004Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/firefly-184ad  
+ 
+[debug] [2019-04-07T17:59:51.987Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\eliav_1iz7\OneDrive\מסמכים\Web Development\Firebase Profile'...
+[info] 
+[debug] [2019-04-07T17:59:51.989Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/951619690157/clients/_:getWebAppConfig  
+ 
+[debug] [2019-04-07T17:59:52.595Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
