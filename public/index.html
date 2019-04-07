@@ -226,8 +226,8 @@ limitations under the License.
 
     .fixed-login {
       position: fixed;
-      top: 5vh;
-      right: 5vh;
+      top: 7vh;
+      right: 10vh;
       text-align: right;
     }
 
@@ -346,27 +346,56 @@ limitations under the License.
       transform: translateY(-50%);
     }
   </style>
+
+  <style type="text/css">
+    body {
+      background-image: linear-gradient(to right bottom, rgba(59, 89, 152, .4), rgba(78, 113, 186, .4));
+      background-repeat: no-repeat;
+      min-height: 100vh;
+    }
+
+    .demo-layout {
+      background-color: #fff;
+      border-radius: 2rem;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      min-height: 93vh;
+      width: 93vw;
+      z-index: -1;
+      box-shadow: 0 1rem 2rem rgba(0, 0, 0, .2);
+      padding: 3rem;
+      overflow: hidden;
+    }
+  </style>
+
+  <style type="text/css">
+    a {
+      text-decoration: none;
+      color: #fff;
+      font-size: 5rem;
+      text-align: center;
+      padding: 3rem;
+    }
+
+    header {
+      background-image: url(img/david-beatz-1430872-unsplash.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 30vh;
+      background-position: center;
+      margin-top: -3rem;
+      margin-left: -3rem;
+      margin-right: -3rem;
+    }
+  </style>
 </head>
 <body>
-<div class="demo-layout mdl-layout mdl-js-layout mdl-layout--fixed-header">
-
-  <!-- Header section containing title -->
-  <header class="mdl-layout__header mdl-color-text--white mdl-color--light-blue-700">
-    <div class="mdl-cell mdl-cell--12-col mdl-cell--12-col-tablet mdl-grid">
-      <div class="mdl-layout__header-row mdl-cell mdl-cell--12-col mdl-cell--12-col-tablet mdl-cell--8-col-desktop">
-        <a href="/"><h3>Firebase Authentication</h3></a>
-      </div>
-    </div>
-  </header>
-
-  <main class="mdl-layout__content mdl-color--grey-100">
     <div class="mdl-cell mdl-cell--12-col mdl-cell--12-col-tablet mdl-grid">
 
       <!-- Container for the demo -->
       <div class="mdl-card mdl-shadow--2dp mdl-cell mdl-cell--12-col mdl-cell--12-col-tablet mdl-cell--12-col-desktop">
-        <div class="mdl-card__title mdl-color--light-blue-600 mdl-color-text--white">
-          <h2 class="mdl-card__title-text">Firebase Email &amp; Password Authentication</h2>
-        </div>
         <div class="mdl-card__supporting-text mdl-color-text--grey-600 fixed-login">
           <div class="login-box">
             <button class="error-btn"><i class="material-icons">report_problem</i> Update Panel: <span class="error">No errors</span></button>
@@ -398,6 +427,20 @@ limitations under the License.
       </div>
 
     </div>
+<div class="demo-layout mdl-layout mdl-js-layout mdl-layout--fixed-header">
+
+  <!-- Header section containing title -->
+  <header class="mdl-layout__header mdl-color-text--white mdl-color--light-blue-700">
+    <div class="mdl-cell mdl-cell--12-col mdl-cell--12-col-tablet mdl-grid">
+      <div class="mdl-layout__header-row mdl-cell mdl-cell--12-col mdl-cell--12-col-tablet mdl-cell--8-col-desktop">
+        <a href="/"><h3>Firefly Profiles</h3></a>
+      </div>
+    </div>
+  </header>
+
+  <main class="mdl-layout__content mdl-color--grey-100">
+
+
   </main>
 </div>
 </body>
