@@ -29,8 +29,19 @@ limitations under the License.
   <!-- These scripts are made available when the app is served or deployed on Firebase Hosting -->
   <!-- If you do not serve/host your project using Firebase Hosting see https://firebase.google.com/docs/web/setup -->
   <script src="/__/firebase/5.9.2/firebase-app.js"></script>
-  <script src="/__/firebase/5.9.2/firebase-auth.js"></script>
-  <script src="/__/firebase/init.js"></script>
+  <script src="init.jsfirebase/5.9.2/firebase-auth.js"></script>
+  <script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyCkBN7CI5TKo0UA70M3iuX3-NP13kD25WM",
+    authDomain: "firefly-184ad.firebaseapp.com",
+    databaseURL: "https://firefly-184ad.firebaseio.com",
+    projectId: "firefly-184ad",
+    storageBucket: "gs://firefly-184ad.appspot.com",
+    messagingSenderId: "951619690157"
+  };
+  firebase.initializeApp(config);
+  </script>
 
   <script type="text/javascript">
     function alertUI(text){
@@ -356,7 +367,6 @@ limitations under the License.
 
     .demo-layout {
       background-color: #fff;
-      border-radius: 2rem;
       position: absolute;
       top: 50%;
       left: 50%;
@@ -443,5 +453,9 @@ limitations under the License.
 
   </main>
 </div>
+<script>
+
+
+</script>
 </body>
 </html>

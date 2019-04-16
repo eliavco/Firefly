@@ -4,7 +4,8 @@
   "description": "a Firebase profile pages",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "firebase serve",
+    "build": "firebase deploy"
   },
   "author": "Eliav Cohen",
   "license": "UNLICENSED",
